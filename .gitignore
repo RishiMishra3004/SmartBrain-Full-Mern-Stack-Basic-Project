@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/smartbrain_frontend/node_modules
+/smartbrain-api(backend)/node_modules
+/smartbrain_frontend/.pnp
+/smartbrain_frontend.pnp.js
+/smartbrain-api(backend)/.pnp
+/smartbrain-api(backend)/.pnp.js
+
+# testing
+/smartbrain_frontend/coverage
+/smartbrain-api(backend)/coverage
+
+# production
+/smartbrain_frontend/build
+/smartbrain-api(backend)/build
+
+# misc
+/smartbrain_frontend.DS_Store
+/smartbrain_frontend/.env.local
+/smartbrain_frontend/.env.development.local
+/smartbrain_frontend/.env.test.local
+/smartbrain_frontend/.env.production.local
+/smartbrain-api(backend)/.DS_Store
+/smartbrain-api(backend)/.env.local
+/smartbrain-api(backend)/.env.development.local
+/smartbrain-api(backend)/.env.test.local
+/smartbrain-api(backend)/.env.production.local
+
+/smartbrain_frontend/npm-debug.log*
+/smartbrain_frontend/yarn-debug.log*
+/smartbrain_frontend/yarn-error.log*
+/smartbrain-api(backend)/npm-debug.log*
+/smartbrain-api(backend)/yarn-debug.log*
+/smartbrain-api(backend)/yarn-error.log*
